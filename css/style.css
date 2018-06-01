@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,45 @@ body {
 }
 
 /* Write all remaining styles here */
+
+
+#title-block {
+	/* this will need code to create a line on the bottom of the border */
+
+	font-size: 5em;
+	font-weight: bold;
+	font-family: 'Baskerville', serif;
+	color: rgb(159, 171, 168, 1);
+	border-bottom: 1px solid #ccc;
+	margin: 10px;
+	padding: 10px;
+
+}
+
+h2 {
+	display: block;
+	font-family: 'Baskerville', serif;
+	color: rgb(159, 171, 168, 1);
+	font-size: 2em;
+}
+
+.boarder-box {
+	top: 0px;
+	border: 5px rgb(152,173,166) solid
+}
+
+.boarder-box img, {
+	border: 5px rgb(152,173,166) solid;
+
+}
+
+.parent img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+#footer-logo {
+	position: relative;
+	text-align: right;
+	font-size: 80%;
+}
